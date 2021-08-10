@@ -9,7 +9,6 @@ public class Calculator {
     }
 
 
-
     //TODO add method for subtraction
     public int subtraction(int a, int b) {
         return a - b;
@@ -48,21 +47,23 @@ public class Calculator {
 
     //TODO (*) |even or odd| add method which get 1 number as parameter and return true if it even, and false - if odd
     public boolean evenOrOdd(int a) {
-        return  (a % 2 == 0);
+        return (a % 2 == 0);
 
-            }
+    }
 
 
     //TODO (*) |biggest value| add method which get 2 number as parameters and return bigger of them, or 0 if they equals
     public static int biggestValue(int a, int b) {
-//        if (a>b){
-//        return a;
+        if (a > b) {
+            return a;
 //    } else if  (a<b){
 //        return b;
 //    } else (a==b) {
 //        return 0;
-    }
+//    }
 
+        }
+    }
 }
 
 
