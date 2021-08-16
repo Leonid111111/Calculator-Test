@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/JUnit_TestNG-Maven-master">
+        <classes>
+            <class name="hardTests.HardTestClass">
+                <methods>
+                    <include name="addAll"/>
+                    <include name="devByZero"> </include>>
+                </methods>
+            </class>
+            <class name="mediumTests.MediumTestClass">
+                <methods>
+                    <include name="averageValue"/>
+                    <include name="evenOrOdd"/>
+                    <include name="biggestValue"> </include>>
+                </methods>
+            </class>
+            <class name="simpleTests.SimpleTestClass">
+                <methods>
+                    <include name="testAddTwoPositiveValues"/>
+                    <include name="subtraction"/>
+                    <include name="multiplication"/>
+                    <include name="division"/>
+                    <include name="squareRoot"/>
+                    <include name="calk1"> </include>>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
